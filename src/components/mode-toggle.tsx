@@ -11,19 +11,21 @@ export function ModeToggle(props: props) {
   const { theme, setTheme } = useTheme();
 
   return (
-    <ModeSwitch
-      className={`${props.className} scale-[125%]`}
-      onCheckedChange={() => {
-        if (theme == "dark") {
-          setTheme("light");
-        } else {
-          setTheme("dark");
-        }
-      }}
-    >
-      <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-      <span className="sr-only">Toggle theme</span>
-    </ModeSwitch>
+    <div className="flex float-right p-5">
+      <ModeSwitch
+        className={`${props.className} scale-[125%]`}
+        onCheckedChange={() => {
+          if (theme == "dark") {
+            setTheme("light");
+          } else {
+            setTheme("dark");
+          }
+        }}
+      >
+        <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+        <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+        <span className="sr-only">Toggle theme</span>
+      </ModeSwitch>
+    </div>
   );
 }
