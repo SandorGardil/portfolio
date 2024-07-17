@@ -1,4 +1,5 @@
 import { ModeToggle } from "./mode-toggle";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -9,15 +10,15 @@ function Header() {
                         Leave
                     </div>
                     <div className="lg:flex-grow justify-center flex items-center">
-                        <a href="/" className="block mt-4 lg:inline-block lg:mt-0 text-foreground hover:text-muted-foreground mr-4 text-xl">
+                        <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 text-foreground hover:text-muted-foreground mr-4 text-xl">
                             Home
-                        </a>
-                        <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 text-foreground hover:text-muted-foreground mr-4 text-xl">
+                        </Link>
+                        <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 text-foreground hover:text-muted-foreground mr-4 text-xl">
                             About Me
-                        </a>
-                        <a href="/resume" className="block mt-4 lg:inline-block lg:mt-0 text-foreground hover:text-muted-foreground text-xl">
+                        </Link>
+                        <Link to="/resume" className="block mt-4 lg:inline-block lg:mt-0 text-foreground hover:text-muted-foreground text-xl">
                             Resume
-                        </a>
+                        </Link>
                     </div>
                     <ModeToggle />
                 </div>
