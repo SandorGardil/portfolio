@@ -8,8 +8,8 @@ import  Resume  from './pages/Resume.tsx';
 function App() {
   return (
     <>
+      <Header />
       <div>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
