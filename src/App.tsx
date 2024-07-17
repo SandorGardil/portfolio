@@ -1,14 +1,20 @@
-import { useState } from 'react'
+import { Header } from './components/header.tsx';
+import { Routes, Route } from 'react-router-dom';
+import  Home  from './pages/Home.tsx';
+import  About  from './pages/About.tsx';
+import  Resume  from './pages/Resume.tsx';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className="p-5">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
       </div>
     </>
   )
