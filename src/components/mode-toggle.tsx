@@ -11,7 +11,7 @@ export function ModeToggle(props: props) {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="flex float-right p-5">
+    <div className="float-right block mr-6">
       <ModeSwitch
         className={`${props.className} scale-[125%]`}
         onCheckedChange={() => {
