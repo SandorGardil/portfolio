@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <div>
+      <div className="flex mx-10 mt-10">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
