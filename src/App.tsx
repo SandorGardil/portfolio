@@ -1,8 +1,8 @@
-import { Header } from './components/header.tsx';
-import { Routes, Route } from 'react-router-dom';
-import  Home  from './pages/Home.tsx';
-import  About  from './pages/About.tsx';
-import  Resume  from './pages/Resume.tsx';
+// import { Header } from './components/header.tsx';
+// import { Routes, Route } from 'react-router-dom';
+// import  Home  from './pages/Home.tsx';
+// import  About  from './pages/About.tsx';
+// import  Resume  from './pages/Resume.tsx';
 
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
                   <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
                 </div>
                 <div>
-                  
+
                 </div>
               </section>
             </main>
