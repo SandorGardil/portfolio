@@ -86,8 +86,8 @@ const Navigation: React.FC = () => {
             onClick={(e) => handleClick(e, item.id)}
             >
             <span
-                className={`nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none ${
-                activeSection === item.id ? 'w-16 bg-slate-200' : ''
+                className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none ${
+                activeSection === item.id ? 'w-16 bg-slate-200' : 'w-8 bg-slate-600'
                 }`}
             ></span>
             <span
