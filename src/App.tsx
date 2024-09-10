@@ -3,7 +3,6 @@
 // import  Home  from './pages/Home.tsx';
 // import  About  from './pages/About.tsx';
 // import  Resume  from './pages/Resume.tsx';
-import test_pdf from "../public/resume.pdf";
 import {
   Tooltip,
   TooltipContent,
