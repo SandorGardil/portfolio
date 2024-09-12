@@ -10,13 +10,14 @@ import {
   TooltipTrigger,
 } from "../src/components/ui/tooltip"
 import Navigation from "./components/ui/navigation"
+import Spotlight from "./components/ui/spotlight"
 
 
 function App() {
   return (
     <>
       <div className="group/spotlight relative">
-        <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" style={{background: "radial-gradient(600px at 1375px 82px, rgba(29, 78, 216, 0.15), transparent 80%)"}}></div>
+        <Spotlight />
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
           <div className="lg:flex lg:justify-between lg:gap-4">
             <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
