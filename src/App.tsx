@@ -1,8 +1,3 @@
-// import { Header } from './components/header.tsx';
-// import { Routes, Route } from 'react-router-dom';
-// import  Home  from './pages/Home.tsx';
-// import  About  from './pages/About.tsx';
-// import  Resume  from './pages/Resume.tsx';
 import {
   Tooltip,
   TooltipContent,
@@ -12,6 +7,58 @@ import {
 import ExperienceItem from "./components/ui/experience-item"
 import Navigation from "./components/ui/navigation"
 import Spotlight from "./components/ui/spotlight"
+const experienceData = [
+  {
+    dateRange: "July 2024 — Present",
+    companyName: "Nagios",
+    companyUrl: "https://www.nagios.com/",
+    jobTitle: "Full Stack Software Developer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad possimus iusto vitae sunt eveniet dolorem praesentium voluptate nam, autem accusamus asperiores facere natus officiis recusandae delectus optio impedit voluptatum.",
+    technologies: [
+      { name: "jQuery" },
+      { name: "PHP" },
+      { name: "React" },
+      { name: "TailwindCSS" },
+      { name: "CSS" },
+      { name: "HTML" },
+      { name: "MySQL" },
+      { name: "CodeIgniter" },
+    ],
+  },
+  {
+    dateRange: "Jan 2023 — July 2024",
+    companyName: "Nagios",
+    companyUrl: "https://www.nagios.com/",
+    jobTitle: "Jr. Full Stack Software Developer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad possimus iusto vitae sunt eveniet dolorem praesentium voluptate nam, autem accusamus asperiores facere natus officiis recusandae delectus optio impedit voluptatum.",
+    technologies: [
+      { name: "jQuery" },
+      { name: "PHP" },
+      { name: "React" },
+      { name: "TailwindCSS" },
+      { name: "Testcafe" },
+      { name: "CSS" },
+      { name: "HTML" },
+      { name: "MySQL" },
+    ],
+  },
+  {
+    dateRange: "Sept 2022 — Jan 2023",
+    companyName: "Nagios",
+    companyUrl: "https://www.nagios.com/",
+    jobTitle: "Intern Software Developer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad possimus iusto vitae sunt eveniet dolorem praesentium voluptate nam, autem accusamus asperiores facere natus officiis recusandae delectus optio impedit voluptatum.",
+    technologies: [
+      { name: "jQuery" },
+      { name: "PHP" },
+      { name: "CSS" },
+      { name: "HTML" },
+    ],
+  },
+];
 
 
 function App() {
@@ -62,7 +109,6 @@ function App() {
                   <p className="mb-4">
                     Est quidem, ratione hic quia ea ut autem dolorem eum nesciunt pariatur distinctio natus dolor sequi quos! Nihil quisquam nemo voluptates. Eos soluta pariatur possimus neque dolores. Obcaecati veniam eaque architecto quae veritatis, tempora facere doloremque a id eveniet cumque omnis quod voluptatum! Blanditiis ad, cumque eaque, laborum aperiam vitae eos amet aut vel eligendi dicta error veritatis in? Quis voluptatum necessitatibus animi modi ab eaque sunt.
                   </p>
-                   
               </section>
               <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
                 <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
@@ -70,53 +116,17 @@ function App() {
                 </div>
                 <div>
                   <ol className="group/list">
-                    <ExperienceItem
-                      dateRange={"July 2024 — Present"}
-                      companyName={"Nagios"}
-                      companyUrl={"https://www.nagios.com/"}
-                      jobTitle={"Full Stack Software Developer"}
-                      description={"temp"}
-                      technologies={[
-                        { name: "jQuery"},
-                        { name: "PHP"},
-                        { name: "React"},
-                        { name: "TailwindCSS"},
-                        { name: "CSS"},
-                        { name: "HTML"},
-                        { name: "MySQL"},
-                        { name: "CodeIgniter"}
-                      ]}
-                    />
-                    <ExperienceItem
-                      dateRange={"Jan 2023 — July 2024"}
-                      companyName={"Nagios"}
-                      companyUrl={"https://www.nagios.com/"}
-                      jobTitle={"Jr. Full Stack Software Developer"}
-                      description={"temp"}
-                      technologies={[
-                        { name: "jQuery"},
-                        { name: "PHP"},
-                        { name: "React"},
-                        { name: "TailwindCSS"},
-                        { name: "Testcafe"},
-                        { name: "CSS"},
-                        { name: "HTML"},
-                        { name: "MySQL"}
-                      ]}
-                    />
-                    <ExperienceItem
-                      dateRange={"Sept 2022 — Jan 2023"}
-                      companyName={"Nagios"}
-                      companyUrl={"https://www.nagios.com/"}
-                      jobTitle={"Intern Software Developer"}
-                      description={"test"}
-                      technologies={[
-                        { name: "jQuery"},
-                        { name: "PHP"},
-                        { name: "CSS"},
-                        { name: "HTML"}
-                      ]}
-                    />
+                    {experienceData.map((experience, index) => (
+                      <ExperienceItem
+                        key={index}
+                        dateRange={experience.dateRange}
+                        companyName={experience.companyName}
+                        companyUrl={experience.companyUrl}
+                        jobTitle={experience.jobTitle}
+                        description={experience.description}
+                        technologies={experience.technologies}
+                      />
+                    ))}
                     {/* <li className="mb-12">
                       <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                         <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
