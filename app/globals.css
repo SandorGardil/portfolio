@@ -33,6 +33,33 @@
       --ring: 222.2 84% 4.9%;
 
       --radius: 0.5rem;
+
+      /* Radix Colors Accent 7A60FB */
+      --violet-1: 243 27% 8%;     /* background 1 */
+      --violet-2: 239 29% 10%;    /* background 2 */
+      --violet-3: 248 46% 21%;    /* interactive components 1 */
+      --violet-4: 250 54% 27%;    /* interactive components 2 */
+      --violet-5: 252 53% 33%;    /* interactive components 3 */
+      --violet-6: 252 53% 39%;    /* borders and seperators 1 */
+      --violet-7: 252 52% 45%;    /* borders and seperators 2 */
+      --violet-8: 253 49% 53%;    /* borders and seperators 3 */
+      --violet-9: 252 94% 67%;    /* solid 1 */
+      --violet-10: 252 80% 61%;   /* solid 2 */
+      --violet-11: 243 100% 84%;  /* text secondary */
+      --violet-12: 240 100% 93%;  /* text primary */
+  
+      --gray-1: 228 5% 8%;    /* background 1 */
+      --gray-2: 228 6% 10%;   /* background 2 */
+      --gray-3: 228 7% 13%;   /* interactive components 1 */
+      --gray-4: 228 8% 16%;   /* interactive components 2 */
+      --gray-5: 228 9% 19%;   /* interactive components 3 */
+      --gray-6: 228 10% 23%;  /* borders and seperators 1 */
+      --gray-7: 228 12% 30%;  /* borders and seperators 2 */
+      --gray-8: 228 16% 40%;  /* borders and seperators 3 */
+      --gray-9: 228 20% 45%;  /* solid 1 */
+      --gray-10: 228 22% 50%; /* solid 2 */
+      --gray-11: 228 28% 70%; /* text secondary */
+      --gray-12: 228 40% 94%; /* text primary */
     }
 
     .light {
@@ -93,6 +120,33 @@
       --border: 217.2 32.6% 17.5%;
       --input: 217.2 32.6% 17.5%;
       --ring: 212.7 26.8% 83.9%;
+
+      /* Radix Colors Accent 7A60FB */
+      --violet-1: 243 27% 8%;     /* background 1 */
+      --violet-2: 239 29% 10%;    /* background 2 */
+      --violet-3: 248 46% 21%;    /* interactive components 1 */
+      --violet-4: 250 54% 27%;    /* interactive components 2 */
+      --violet-5: 252 53% 33%;    /* interactive components 3 */
+      --violet-6: 252 53% 39%;    /* borders and seperators 1 */
+      --violet-7: 252 52% 45%;    /* borders and seperators 2 */
+      --violet-8: 253 49% 53%;    /* borders and seperators 3 */
+      --violet-9: 252 94% 67%;    /* solid 1 */
+      --violet-10: 252 80% 61%;   /* solid 2 */
+      --violet-11: 243 100% 84%;  /* text secondary */
+      --violet-12: 240 100% 93%;  /* text primary */
+  
+      --gray-1: 228 5% 8%;    /* background 1 */
+      --gray-2: 228 6% 10%;   /* background 2 */
+      --gray-3: 228 7% 13%;   /* interactive components 1 */
+      --gray-4: 228 8% 16%;   /* interactive components 2 */
+      --gray-5: 228 9% 19%;   /* interactive components 3 */
+      --gray-6: 228 10% 23%;  /* borders and seperators 1 */
+      --gray-7: 228 12% 30%;  /* borders and seperators 2 */
+      --gray-8: 228 16% 40%;  /* borders and seperators 3 */
+      --gray-9: 228 20% 45%;  /* solid 1 */
+      --gray-10: 228 22% 50%; /* solid 2 */
+      --gray-11: 228 28% 70%; /* text secondary */
+      --gray-12: 228 40% 94%; /* text primary */
     }
   }
 
@@ -109,8 +163,8 @@
     width: 100%;
     height: 100%;
     background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.9) 70%);
-    pointer-events: none; /* Ensure interaction with content underneath */
-    z-index: -1; /* Ensure it's behind the content */
+    pointer-events: none;
+    z-index: -1;
   }
 
   @layer base {
