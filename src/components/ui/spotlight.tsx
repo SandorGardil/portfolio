@@ -7,8 +7,9 @@ interface SpotlightProps {
 }
 
 const Spotlight: React.FC<SpotlightProps> = ({ 
-  size = 600, 
-  color = 'rgba(29, 78, 216, 0.15)', 
+  size = 500, 
+  // color = 'rgba(29, 78, 216, 0.15)', 
+  color = 'hsla(210, 60%, 50%, 0.15)',
   className = '' 
 }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0});

@@ -60,6 +60,11 @@
       --gray-10: 228 22% 50%; /* solid 2 */
       --gray-11: 228 28% 70%; /* text secondary */
       --gray-12: 228 40% 94%; /* text primary */
+
+      --mint-text: 145 77% 64%;
+      --mint-bg: 158 66% 50%;
+      --teal-text: 170 56% 66%;
+      --teal-bg: 170 71% 50%;
     }
 
     .light {
@@ -150,7 +155,7 @@
     }
   }
 
-  .spotlight {
+  /* .spotlight {
     position: relative;
     z-index: 1;
   }
@@ -165,16 +170,16 @@
     background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.9) 70%);
     pointer-events: none;
     z-index: -1;
-  }
+  } */
 
   @layer base {
     * {
       @apply border-border;
     }
     body {
-      @apply bg-background text-foreground;
+      @apply bg-violet-2 text-foreground;
       @apply font-geist;
       @apply text-base;
-      @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900;
+      @apply leading-relaxed text-gray-11 antialiased selection:bg-teal-300 selection:text-teal-900;
     }
   }
