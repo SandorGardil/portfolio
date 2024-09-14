@@ -51,6 +51,34 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        violet: {
+          1: "hsl(var(--violet-1))",  // background 1
+          2: "hsl(var(--violet-2))",  // background 2
+          3: "hsl(var(--violet-3))",  // interactive components 1
+          4: "hsl(var(--violet-4))",  // interactive components 2
+          5: "hsl(var(--violet-5))",  // interactive components 3
+          6: "hsl(var(--violet-6))",  // borders and separators 1
+          7: "hsl(var(--violet-7))",  // borders and separators 2
+          8: "hsl(var(--violet-8))",  // borders and separators 3
+          9: "hsl(var(--violet-9))",  // solid 1
+          10: "hsl(var(--violet-10))", // solid 2
+          11: "hsl(var(--violet-11))", // text secondary
+          12: "hsl(var(--violet-12))", // text primary
+        },
+        gray: {
+          1: "hsl(var(--gray-1))",   // background 1
+          2: "hsl(var(--gray-2))",   // background 2
+          3: "hsl(var(--gray-3))",   // interactive components 1
+          4: "hsl(var(--gray-4))",   // interactive components 2
+          5: "hsl(var(--gray-5))",   // interactive components 3
+          6: "hsl(var(--gray-6))",   // borders and separators 1
+          7: "hsl(var(--gray-7))",   // borders and separators 2
+          8: "hsl(var(--gray-8))",   // borders and separators 3
+          9: "hsl(var(--gray-9))",   // solid 1
+          10: "hsl(var(--gray-10))", // solid 2
+          11: "hsl(var(--gray-11))", // text secondary
+          12: "hsl(var(--gray-12))", // text primary
+        },
       },
       fontFamily: {
         geist: ['Geist', 'sans-serif'],
