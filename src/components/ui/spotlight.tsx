@@ -17,7 +17,7 @@ const Spotlight: React.FC<SpotlightProps> = ({
     const updateMousePosition = (ev: MouseEvent) => {
       setMousePosition({ x: ev.pageX, y: ev.pageY});
     };
-    // TODO: add scroll x and scroll y. Listen to scroll event and then retain old scroll and the new scroll. Do some math to update for the new position of the cursor
+    // TODO: Scrolling while not moving the mouse doesn't rerender the component so the spot light shifts laterally until you move your cursor again
 
     window.addEventListener('mousemove', updateMousePosition);
 
