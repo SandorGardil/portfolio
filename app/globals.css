@@ -180,6 +180,6 @@
       @apply bg-violet-2 text-foreground;
       @apply font-geist;
       @apply text-base;
-      @apply leading-relaxed text-gray-11 antialiased selection:bg-teal-300 selection:text-teal-900;
+      @apply leading-relaxed text-gray-11 antialiased selection:bg-mint selection:text-violet-1;
     }
   }

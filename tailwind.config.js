@@ -79,6 +79,14 @@ module.exports = {
           11: "hsl(var(--gray-11))", // text secondary
           12: "hsl(var(--gray-12))", // text primary
         },
+        mint: {
+          DEFAULT: "hsl(var(--mint-text))",
+          background: "hsl(var(--mint-bg))",
+        },
+        teal: {
+          DEFAULT: "hsl(var(--teal-text))",
+          background: "hsl(var(--teal-bg))",
+        },
       },
       fontFamily: {
         geist: ['Geist', 'sans-serif'],
