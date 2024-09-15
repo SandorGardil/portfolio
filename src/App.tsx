@@ -14,7 +14,7 @@ const experienceData = [
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Full Stack Software Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad possimus iusto vitae sunt eveniet dolorem praesentium voluptate nam, autem accusamus asperiores facere natus officiis recusandae delectus optio impedit voluptatum.",
+      "Led the product management of Nagios Network Analyzer, overseeing its growth and development. Played a key role in the UI overhaul of Nagios Log Server, implementing significant frontend improvements to enhance usability and design.",
     technologies: [
       { name: "jQuery" },
       { name: "PHP" },
@@ -32,7 +32,7 @@ const experienceData = [
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Jr. Full Stack Software Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad possimus iusto vitae sunt eveniet dolorem praesentium voluptate nam, autem accusamus asperiores facere natus officiis recusandae delectus optio impedit voluptatum.",
+      "Developed and enhanced multiple features across both front-end and back-end, with a primary focus on improving the functionality and user experience of Nagios’s flagship product, Nagios XI, while resolving bugs to improve overall user experience.",
     technologies: [
       { name: "jQuery" },
       { name: "PHP" },
@@ -50,7 +50,7 @@ const experienceData = [
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Intern Software Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad possimus iusto vitae sunt eveniet dolorem praesentium voluptate nam, autem accusamus asperiores facere natus officiis recusandae delectus optio impedit voluptatum.",
+      "Prototyped several features across four different Nagios products (Nagios XI, Log Server, Network Analyzer, Fusion), introducing new ideas to enhance functionality while deepening my familiarity with the software.",
     technologies: [
       { name: "jQuery" },
       { name: "PHP" },
@@ -104,14 +104,14 @@ function App() {
             <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
               <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit adipisci distinctio quae, voluptatibus ab maiores blanditiis eum aspernatur id nostrum, nihil quia? Eius officiis molestiae quisquam maiores libero blanditiis veniam inventore eum voluptatibus delectus. Exercitationem laboriosam dolorum numquam nihil assumenda reprehenderit ipsam ipsum, laudantium incidunt asperiores consequuntur hic vitae cupiditate rerum quia consectetur nemo natus amet.
+                    Back in 2022, I started learning programming with the goal of building a website with a friend. Just a few weeks into my journey, I landed an internship at Nagios, where I quickly gained hands-on experience. Fast forward to today, I’m a Full Stack Developer at Nagios, where I’ve had the opportunity to take on product ownership roles, lead UI overhauls, and tackle complex technical challenges.
                   </p>
                   <p className="mb-4">
-                    Est quidem, ratione hic quia ea ut autem dolorem eum nesciunt pariatur distinctio natus dolor sequi quos! Nihil quisquam nemo voluptates. Eos soluta pariatur possimus neque dolores. Obcaecati veniam eaque architecto quae veritatis, tempora facere doloremque a id eveniet cumque omnis quod voluptatum! Blanditiis ad, cumque eaque, laborum aperiam vitae eos amet aut vel eligendi dicta error veritatis in? Quis voluptatum necessitatibus animi modi ab eaque sunt.
+                    As a software generalist, I’m passionate about creating user-focused solutions and continuously learning new technologies. When I'm not at my computer, I’m usually staying active—whether that’s working out, training martial arts, or going for walks—or spending time with those I care about.
                   </p>
               </section>
               <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
-                <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                   <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
                 </div>
                 <div>
