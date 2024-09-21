@@ -117,7 +117,7 @@ function App() {
             <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
               <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
                   <p className="mb-4">
-                    Back in 2022, I started learning programming with the goal of building a website with a friend. Just a few weeks into my journey, I landed an internship at 
+                    Back in 2022, I started learning programming with the goal of building a website with a friend. Just a few weeks into my journey, I was hired as an intern at 
                     <a className="font-medium text-gray-12 hover:text-mint focus-visible:text-mint" href="https://www.nagios.com/" target="_blank" rel="noreferrer noopener" aria-label="advertising agency (opens in a new tab)"> Nagios</a>
                     , where I quickly gained hands-on experience.
                   </p>
