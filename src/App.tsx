@@ -9,7 +9,10 @@ import Navigation from "./components/ui/navigation"
 import Spotlight from "./components/ui/spotlight"
 const experienceData = [
   {
-    dateRange: "July 2024 — Present",
+    dateRange: [
+      { date: "July 2024" },
+      { date: "Present" },
+    ],
     companyName: "Nagios",
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Full Stack Software Developer",
@@ -27,7 +30,10 @@ const experienceData = [
     ],
   },
   {
-    dateRange: "Jan 2023 — July 2024",
+    dateRange: [
+      { date: "Jan 2023" },
+      { date: "July 2024" },
+    ],
     companyName: "Nagios",
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Jr. Full Stack Software Developer",
@@ -45,7 +51,10 @@ const experienceData = [
     ],
   },
   {
-    dateRange: "Sept 2022 — Jan 2023",
+    dateRange: [
+      { date: "Sept 2022" },
+      { date: "Jan 2023" },
+    ],
     companyName: "Nagios",
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Intern Software Developer",
