@@ -25,6 +25,7 @@ const Spotlight: React.FC<SpotlightProps> = ({
       window.removeEventListener('mousemove', updateMousePosition);
     };
   }, []);
+  if (window.innerWidth < 769) return null;
 
   return (
     <div 
