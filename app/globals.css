@@ -155,6 +155,20 @@
     }
   }
 
+  @font-face {
+    font-family: 'Geist';
+    src: url('../src/assets/fonts/Geist-Regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Geist';
+    src: url('../src/assets/fonts/Geist-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
   @layer base {
     * {
       @apply border-border;
