@@ -17,7 +17,7 @@ const experienceData = [
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Full Stack Software Developer",
     description:
-      "Led the product management of Nagios Network Analyzer, overseeing its growth and development. Played a key role in the UI overhaul of Nagios Log Server, implementing significant frontend improvements to enhance usability and design.",
+      "Led the product management of Nagios Network Analyzer, overseeing its growth and development. Mentored new interns and jr devs, accelerating the on boarding process. Played a key role in the UI overhaul of Nagios Log Server, implementing significant frontend improvements to enhance usability and design.",
     technologies: [
       { name: "jQuery" },
       { name: "PHP" },
@@ -27,6 +27,8 @@ const experienceData = [
       { name: "HTML" },
       { name: "MySQL" },
       { name: "CodeIgniter" },
+      { name: "Laravel" },
+      { name: "Python" },
     ],
   },
   {
