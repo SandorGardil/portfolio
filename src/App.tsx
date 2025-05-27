@@ -138,9 +138,6 @@ function App() {
                     <a className="font-medium text-gray-12 hover:text-mint focus-visible:text-mint" href="https://www.nagios.com/" target="_blank" rel="noreferrer noopener" aria-label="advertising agency (opens in a new tab)"> Nagios</a>
                     , where I quickly gained hands-on experience.
                   </p>
-                  {/* <p className="mb-4">
-                    Fast forward to today, I’m a Full Stack Developer at Nagios, where I’ve had the opportunity to take on product ownership roles, lead UI overhauls, and tackle complex technical challenges.
-                  </p> */}
                   <p className="mb-4">
                     As a software generalist, I’m passionate about creating user-focused solutions and continuously learning new technologies. When I'm not at my computer, I’m usually staying active—whether that’s working out, training martial arts, or going for walks—or spending time with those I care about.
                   </p>
@@ -162,7 +159,7 @@ function App() {
                         technologies={experience.technologies}
                       />
                     ))}
-                  </ol> 
+                  </ol>
                   <div className="mt-12">
                     <a className="inline-flex items-baseline font-medium leading-tight text-violet-12 hover:text-mint focus-visible:text-mint font-semibold text-violet-12 group/link text-base" href="/resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View Full Resume (opens in a new tab)">
                       <span>View Full <span className="inline-block">Resume<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path></svg></span></span>
@@ -181,7 +178,6 @@ function App() {
                         <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-violet-3/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                         <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-9 sm:col-span-2" aria-label="sg chat">
                           {/* image here */}
-                          {/* <DateRangeHeader dateRange={dateRange} /> */}
                         </header>
                         <div className="z-10 sm:col-span-6">
                           <h3 className="font-medium leading-snug text-violet-12">
@@ -193,12 +189,11 @@ function App() {
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                                       <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path>
                                     </svg>
-                        
                                 </span>
                               </a>
                             </div>
                           </h3>
-                          <div className="mt-2 text-sm leading-normal">This is a chat app I built for learning new technologies and how to make an app that uses AI. It uses the Gemeni's API to generate responses and the Vercel AI SDK to streamline the process. Motivation was taken from t3.chat for design and snappy UI.</div>
+                          <div className="mt-2 text-sm leading-normal">A work in progress chat app I built for learning new technologies and how to make an app that uses AI. It uses the Gemeni's API to generate responses and the Vercel AI SDK to streamline the process. Motivation was taken from t3.chat for design and snappy UI.</div>
                           <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                             {sgChatTechnologies.map((tech, index) => (
                               <li key={index} className="mr-1.5 mt-2">
