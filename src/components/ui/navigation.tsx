@@ -9,6 +9,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { id: 'about', label: 'About' },
   { id: 'experience', label: 'Experience' },
+  { id: 'projects', label: 'Projects' },
   // Add more navigation items as needed
 ];
 
