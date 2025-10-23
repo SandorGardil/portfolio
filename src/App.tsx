@@ -17,7 +17,7 @@ const experienceData = [
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Full Stack Software Developer",
     description:
-      "Product owner of Nagios Network Analyzer and led the complete rewrite of the project. Mentored new interns and jr devs, accelerating the on boarding process. Played a key role in the UI overhaul of Nagios Log Server, implementing significant frontend improvements to enhance usability and design.",
+      "Product owner of Nagios Network Analyzer. Led the complete rewrite of Nagios Network Analyzer and gave a talk about it at the Nagios World Conference.  Mentored new interns and jr devs, accelerating the on boarding process. Played a key role in the UI overhaul of Nagios Log Server, implementing significant frontend improvements to enhance usability and design.",
     technologies: [
       { name: "jQuery" },
       { name: "PHP" },
