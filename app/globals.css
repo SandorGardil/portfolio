@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
+
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+
+      /* Radix Colors Accent 7A60FB */
+      --violet-1: 243 27% 8%;     /* background 1 */
+      --violet-2: 239 29% 10%;    /* background 2 */
+      --violet-3: 248 46% 21%;    /* interactive components 1 */
+      --violet-4: 250 54% 27%;    /* interactive components 2 */
+      --violet-5: 252 53% 33%;    /* interactive components 3 */
+      --violet-6: 252 53% 39%;    /* borders and seperators 1 */
+      --violet-7: 252 52% 45%;    /* borders and seperators 2 */
+      --violet-8: 253 49% 53%;    /* borders and seperators 3 */
+      --violet-9: 252 94% 67%;    /* solid 1 */
+      --violet-10: 252 80% 61%;   /* solid 2 */
+      --violet-11: 243 100% 84%;  /* text secondary */
+      --violet-12: 240 100% 93%;  /* text primary */
+  
+      --gray-1: 228 5% 8%;    /* background 1 */
+      --gray-2: 228 6% 10%;   /* background 2 */
+      --gray-3: 228 7% 13%;   /* interactive components 1 */
+      --gray-4: 228 8% 16%;   /* interactive components 2 */
+      --gray-5: 228 9% 19%;   /* interactive components 3 */
+      --gray-6: 228 10% 23%;  /* borders and seperators 1 */
+      --gray-7: 228 12% 30%;  /* borders and seperators 2 */
+      --gray-8: 228 16% 40%;  /* borders and seperators 3 */
+      --gray-9: 228 20% 45%;  /* solid 1 */
+      --gray-10: 228 22% 50%; /* solid 2 */
+      --gray-11: 228 28% 70%; /* text secondary */
+      --gray-12: 228 40% 94%; /* text primary */
+
+      --mint-text: 145 77% 64%;
+      --mint-bg: 158 66% 50%;
+      --teal-text: 170 56% 66%;
+      --teal-bg: 170 71% 50%;
+    }
+
+    .light {
+      --background: 210 40% 98%; /* Light background */
+      --foreground: 222.2 84% 4.9%; /* Dark text on light background */
+    
+      --card: 210 40% 98%; /* Light card background */
+      --card-foreground: 222.2 84% 4.9%; /* Dark text on light card background */
+    
+      --popover: 210 40% 98%; /* Light popover background */
+      --popover-foreground: 222.2 84% 4.9%; /* Dark text on light popover background */
+    
+      --primary: 222.2 47.4% 11.2%; /* Dark primary color */
+      --primary-foreground: 210 40% 98%; /* Light text on dark primary color */
+    
+      --secondary: 215 20.2% 65.1%; /* Light secondary color */
+      --secondary-foreground: 222.2 84% 4.9%; /* Dark text on light secondary color */
+    
+      --muted: 217.2 32.6% 90%; /* Light muted color */
+      --muted-foreground: 217.2 32.6% 17.5%; /* Dark text on light muted color */
+    
+      --accent: 212.7 26.8% 83.9%; /* Light accent color */
+      --accent-foreground: 217.2 32.6% 17.5%; /* Dark text on light accent color */
+    
+      --destructive: 0 62.8% 70.6%; /* Light destructive color */
+      --destructive-foreground: 222.2 84% 4.9%; /* Dark text on light destructive color */
+    
+      --border: 210 15% 85%; /* Light border color */
+      --input: 210 15% 85%; /* Light input color */
+      --ring: 222.2 84% 4.9%; /* Dark ring color */
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+
+      /* Radix Colors Accent 7A60FB */
+      --violet-1: 243 27% 8%;     /* background 1 */
+      --violet-2: 239 29% 10%;    /* background 2 */
+      --violet-3: 248 46% 21%;    /* interactive components 1 */
+      --violet-4: 250 54% 27%;    /* interactive components 2 */
+      --violet-5: 252 53% 33%;    /* interactive components 3 */
+      --violet-6: 252 53% 39%;    /* borders and seperators 1 */
+      --violet-7: 252 52% 45%;    /* borders and seperators 2 */
+      --violet-8: 253 49% 53%;    /* borders and seperators 3 */
+      --violet-9: 252 94% 67%;    /* solid 1 */
+      --violet-10: 252 80% 61%;   /* solid 2 */
+      --violet-11: 243 100% 84%;  /* text secondary */
+      --violet-12: 240 100% 93%;  /* text primary */
+  
+      --gray-1: 228 5% 8%;    /* background 1 */
+      --gray-2: 228 6% 10%;   /* background 2 */
+      --gray-3: 228 7% 13%;   /* interactive components 1 */
+      --gray-4: 228 8% 16%;   /* interactive components 2 */
+      --gray-5: 228 9% 19%;   /* interactive components 3 */
+      --gray-6: 228 10% 23%;  /* borders and seperators 1 */
+      --gray-7: 228 12% 30%;  /* borders and seperators 2 */
+      --gray-8: 228 16% 40%;  /* borders and seperators 3 */
+      --gray-9: 228 20% 45%;  /* solid 1 */
+      --gray-10: 228 22% 50%; /* solid 2 */
+      --gray-11: 228 28% 70%; /* text secondary */
+      --gray-12: 228 40% 94%; /* text primary */
+    }
+  }
+
+  @font-face {
+    font-family: 'Geist';
+    src: url('../src/assets/fonts/Geist-Regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Geist';
+    src: url('../src/assets/fonts/Geist-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-violet-2 text-foreground;
+      @apply font-geist;
+      @apply text-base;
+      @apply leading-relaxed text-gray-11 antialiased selection:bg-mint selection:text-violet-1;
+      @media (max-width: 1024px) {
+        background: repeating-linear-gradient(90deg, hsl(239 29% 10%), hsl(239 29% 15%), hsl(239 29% 10%));
+      }
+    }
+  }
