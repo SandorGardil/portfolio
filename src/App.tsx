@@ -133,7 +133,7 @@ function App() {
                     , where I quickly gained hands-on experience.
                   </p>
                   <p className="mb-4">
-                    As a software engineer, I’m passionate about creating user-focused solutions and continuously learning new technologies. When I'm not at my computer, I usually try stay active. Whether that’s working out, training martial arts, or going for walks. When I'm not doing that, I'm usually spending time with those I care about or playing games.
+                    I’m passionate about creating user-focused solutions and continuously learning new technologies. When I'm not at my computer, I usually try stay active. Whether that’s working out, training martial arts, or going for walks. When I'm not doing that, I'm usually spending time with friends and family.
                   </p>
               </section>
               <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-24 lg:scroll-mt-24" aria-label="Work experience">
