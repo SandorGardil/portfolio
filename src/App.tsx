@@ -17,7 +17,7 @@ const experienceData = [
     companyUrl: "https://www.nagios.com/",
     jobTitle: "Full Stack Software Developer",
     description:
-      "Product owner of Nagios Network Analyzer. Led the complete rewrite of Nagios Network Analyzer and gave a talk about it at the Nagios World Conference.  Mentored new interns and jr devs, accelerating the on boarding process. Played a key role in the UI overhaul of Nagios Log Server, implementing significant frontend improvements to enhance usability and design.",
+      "Product Owner of Nagios Network Analyzer, where I led the complete architectural rewrite of the product using modern technologies. Presented the modernization effort at the Nagios World Conference through both a technical presentation and hands-on workshop. Mentored interns and junior developers, helping establish development practices and improve team productivity. Contributed significantly to the Nagios Log Server UI overhaul by implementing frontend improvements focused on usability and design.",
     technologies: [
       { name: "jQuery" },
       { name: "PHP" },
@@ -133,7 +133,7 @@ function App() {
                     , where I quickly gained hands-on experience.
                   </p>
                   <p className="mb-4">
-                    As a software generalist, I’m passionate about creating user-focused solutions and continuously learning new technologies. When I'm not at my computer, I’m usually staying active—whether that’s working out, training martial arts, or going for walks—or spending time with those I care about.
+                    As a software engineer, I’m passionate about creating user-focused solutions and continuously learning new technologies. When I'm not at my computer, I usually try stay active. Whether that’s working out, training martial arts, or going for walks. When I'm not doing that, I'm usually spending time with those I care about or playing games.
                   </p>
               </section>
               <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-24 lg:scroll-mt-24" aria-label="Work experience">
